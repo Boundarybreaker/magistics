@@ -1,0 +1,25 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "transform": "forge:default-block",
+        "model": "magistics:table",
+        "textures": {
+            "column": "magistics:blocks/greatwood/planks",
+    		"base": "magistics:blocks/table/planks-dark",
+    		"top": "magistics:blocks/table/top",
+    		"particle": "magistics:blocks/table/top"
+        }
+    },
+    "variants": {
+        "inventory": [
+            {
+                "textures": {
+                    "column": "magistics:blocks/greatwood/planks",
+            		"base": "magistics:blocks/table/planks-dark",
+            		"top": "magistics:blocks/table/top",
+            		"particle": "magistics:blocks/table/top"
+                }
+            }
+        ],
+    }
+}

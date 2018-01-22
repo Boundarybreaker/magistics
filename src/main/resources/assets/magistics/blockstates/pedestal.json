@@ -1,0 +1,23 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "transform": "forge:default-block",
+        "model": "magistics:pedestal",
+        "textures": {
+            "column": "magistics:blocks/pedestal/bricks",
+            "base": "magistics:blocks/pedestal_top",
+    		"particle": "magistics:blocks/pedestal/bricks"
+        }
+    },
+    "variants": {
+        "inventory": [
+            {
+                "textures": {
+                    "column": "magistics:blocks/pedestal/bricks",
+                    "base": "magistics:blocks/pedestal_top",
+            		"particle": "magistics:blocks/pedestal/bricks"
+                }
+            }
+        ],
+    }
+}
