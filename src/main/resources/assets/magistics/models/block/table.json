@@ -4,7 +4,7 @@
 		"column": "magistics:blocks/greatwood/planks",
 		"base": "magistics:blocks/table/planks-dark",
 		"top": "magistics:blocks/table/top",
-		"particle": "magistics:blocks/table/top",
+		"particle": "magistics:blocks/table/top"
 	},
 	"elements": [
 		{
@@ -30,8 +30,8 @@
 				"east": {"uv": [4, 5, 12, 11], "texture": "#column"},
 				"south": {"uv": [4, 5, 12, 11], "texture": "#column"},
 				"west": {"uv": [4, 5, 12, 11], "texture": "#column"},
-				"up": {"uv": [0, 0, 8, 8], "texture": "#missing"},
-				"down": {"uv": [0, 0, 8, 8], "texture": "#missing"}
+				"up": {"uv": [0, 0, 8, 8], "texture": "#column"},
+				"down": {"uv": [0, 0, 8, 8], "texture": "#column"}
 			},
 			"type": "cube"
 		},
@@ -56,24 +56,24 @@
 			"faces": {
 				"north": {
 					"uv": [0, 0, 12, 1],
-					"texture": "#missing"
+					"texture": "#base"
 				},
 				"east": {
 					"uv": [0, 0, 12, 1],
-					"texture": "#missing"
+					"texture": "#base"
 				},
 				"south": {
 					"uv": [0, 0, 12, 1],
-					"texture": "#missing"
+					"texture": "#base"
 				},
 				"west": {
 					"uv": [0, 0, 12, 1],
-					"texture": "#missing"
+					"texture": "#base"
 				},
 				"up": {"uv": [2, 2, 14, 14], "texture": "#top"},
 				"down": {
 					"uv": [0, 0, 12, 12],
-					"texture": "#missing"
+					"texture": "#base"
 				}
 			},
 			"type": "cube"
@@ -85,19 +85,19 @@
 			"faces": {
 				"north": {
 					"uv": [0, 0, 12, 1.4500000000000002],
-					"texture": "#missing"
+					"texture": "#base"
 				},
 				"east": {
 					"uv": [0, 0, 1, 1.4500000000000002],
-					"texture": "#missing"
+					"texture": "#base"
 				},
 				"south": {"uv": [2, 0, 14, 1.45], "texture": "#base"},
 				"west": {
 					"uv": [0, 0, 1, 1.4500000000000002],
-					"texture": "#missing"
+					"texture": "#base"
 				},
-				"up": {"uv": [0, 0, 12, 1], "texture": "#missing"},
-				"down": {"uv": [0, 0, 12, 1], "texture": "#missing"}
+				"up": {"uv": [0, 0, 12, 1], "texture": "#base"},
+				"down": {"uv": [0, 0, 12, 1], "texture": "#base"}
 			},
 			"rotation": {
 				"origin": [
@@ -118,18 +118,18 @@
 				"north": {"uv": [2, 0, 14, 1.45], "texture": "#base"},
 				"east": {
 					"uv": [0, 0, 1, 1.4499999999999993],
-					"texture": "#missing"
+					"texture": "#base"
 				},
 				"south": {
 					"uv": [0, 0, 12, 1.4499999999999993],
-					"texture": "#missing"
+					"texture": "#base"
 				},
 				"west": {
 					"uv": [0, 0, 1, 1.4499999999999993],
-					"texture": "#missing"
+					"texture": "#base"
 				},
-				"up": {"uv": [0, 0, 12, 1], "texture": "#missing"},
-				"down": {"uv": [0, 0, 12, 1], "texture": "#missing"}
+				"up": {"uv": [0, 0, 12, 1], "texture": "#base"},
+				"down": {"uv": [0, 0, 12, 1], "texture": "#base"}
 			},
 			"rotation": {
 				"origin": [
@@ -149,19 +149,19 @@
 			"faces": {
 				"north": {
 					"uv": [0, 0, 1, 1.4499999999999993],
-					"texture": "#missing"
+					"texture": "#base"
 				},
 				"east": {"uv": [2, 0, 14, 1.45], "texture": "#base"},
 				"south": {
 					"uv": [0, 0, 1, 1.4499999999999993],
-					"texture": "#missing"
+					"texture": "#base"
 				},
 				"west": {
 					"uv": [0, 0, 12, 1.4499999999999993],
-					"texture": "#missing"
+					"texture": "#base"
 				},
-				"up": {"uv": [0, 0, 1, 12], "texture": "#missing"},
-				"down": {"uv": [0, 0, 1, 12], "texture": "#missing"}
+				"up": {"uv": [0, 0, 1, 12], "texture": "#base"},
+				"down": {"uv": [0, 0, 1, 12], "texture": "#base"}
 			},
 			"rotation": {
 				"origin": [
@@ -181,19 +181,19 @@
 			"faces": {
 				"north": {
 					"uv": [0, 0, 1, 1.4500000000000002],
-					"texture": "#missing"
+					"texture": "#base"
 				},
 				"east": {
 					"uv": [0, 0, 12, 1.4500000000000002],
-					"texture": "#missing"
+					"texture": "#base"
 				},
 				"south": {
 					"uv": [0, 0, 1, 1.4500000000000002],
-					"texture": "#missing"
+					"texture": "#base"
 				},
 				"west": {"uv": [2, 0, 14, 1.45], "texture": "#base"},
-				"up": {"uv": [0, 0, 1, 12], "texture": "#missing"},
-				"down": {"uv": [0, 0, 1, 12], "texture": "#missing"}
+				"up": {"uv": [0, 0, 1, 12], "texture": "#base"},
+				"down": {"uv": [0, 0, 1, 12], "texture": "#base"}
 			},
 			"rotation": {
 				"origin": [
